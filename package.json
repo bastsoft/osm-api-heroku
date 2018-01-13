@@ -1,0 +1,39 @@
+{
+  "name": "osm-api-heroku",
+  "version": "1.0.0",
+  "description": "osm heroku ajax endpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastsoft/osm-api-heroku.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bastsoft/osm-api-heroku/issues"
+  },
+  "homepage": "https://github.com/bastsoft/osm-api-heroku#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.1.0",
+    "node-fetch": "^1.7.3",
+    "request": "^2.83.0",
+    "webpack": "^3.10.0",
+    "xml2json-light": "^1.0.6"
+  }
+}
